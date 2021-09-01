@@ -5,20 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Stats preview card component</title>
 </head>
 <body>
   <main>
-    <div class="main-container">
-      <img src="/images/image-header-desktop.jpg">
-      <div class="summary-box">
-        <h1>Get <span>insights</span> that help your business grow.</h1>
-        Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-        experience, and overall efficiency.
-        <div class="numbers-box">
-          <div>10k+ companies</div>
-          <div>314 templates</div>
-          <div>12m+ queries</div>
+    <div class="hero">
+        <div class="main-container">
+        <div class="img-box">
+            <!--div class="layer"></div>
+            <img id="main-img" src="/images/image-header-desktop.jpg" alt="people working in an office"-->
+        </div>
+        <div class="summary-box">         
+            <h1>Get <span>insights</span> that help your business grow.</h1>
+            <div class="text-box">
+            Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+            experience, and overall efficiency.
+            </div>
+            <div class="stats-box">
+                <div class="stats-item"><span>10k+</span> COMPANIES</div>
+                <div class="stats-item"><span>314</span> TEMPLATES</div>
+                <div class="stats-item"><span>12M+</span> QUERIES</div>  
+            </div>
         </div>
       </div>
     </div>
