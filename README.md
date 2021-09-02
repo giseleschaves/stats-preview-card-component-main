@@ -23,7 +23,7 @@ Users should be able to:
 
 Develop a simple card to sign a music plan. Users should be able to:
 
-- See hover states for interactive elements
+- View the optimal layout depending on their device's screen size
 
 ### Screenshot
 
