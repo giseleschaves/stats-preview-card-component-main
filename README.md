@@ -27,7 +27,9 @@ Develop a simple card to sign a music plan. Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./design/solution-screenshot.png)
+![Screenshot mobile](./design/mobile-solution-screenshot.png)
+![Screenshot tablet](./design/tablet-solution-screenshot.png)
+![Screenshot desktop](./design/desk-solution-screenshot.png)
 
 ### Links
 
